@@ -256,7 +256,8 @@ if (womanCanvas) {
         const hRatio = womanCanvas.width / img.width;
         const vRatio = womanCanvas.height / img.height;
         const ratio = Math.max(hRatio, vRatio);
-        const centerShift_x = (womanCanvas.width - img.width * ratio) / 2;
+        // Shift mostly to the right (80%) instead of center (50%) to keep her face in view on mobile
+        const centerShift_x = (womanCanvas.width - img.width * ratio) * 0.8;
         const centerShift_y = (womanCanvas.height - img.height * ratio) / 2;
         
         context.clearRect(0, 0, womanCanvas.width, womanCanvas.height);
