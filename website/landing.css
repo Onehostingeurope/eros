@@ -462,3 +462,34 @@ a {
 .social-links a:hover {
   opacity: 0.6;
 }
+
+/* Testimonial Marquee */
+.testimonial-marquee {
+  width: 100%;
+  margin-top: 50px;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-flex;
+  animation: scroll-left 40s linear infinite;
+}
+
+.marquee-content span {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--text-color);
+  padding: 0 40px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
