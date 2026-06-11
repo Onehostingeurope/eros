@@ -50,7 +50,8 @@ a {
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(0,0,0,0.05);
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 100;
 }
@@ -120,6 +121,25 @@ a {
   display: inline-block;
   align-self: flex-start;
   padding-bottom: 4px;
+}
+
+.scroll-indicator {
+  margin-top: 80px;
+  animation: bounce 2s infinite;
+  color: var(--text-color);
+  opacity: 0.6;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
 }
 
 .hero-image {
