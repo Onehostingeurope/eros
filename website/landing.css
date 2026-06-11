@@ -442,4 +442,23 @@ a {
   color: var(--text-light);
   border-top: 1px solid #eaeaea;
   padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  color: var(--text-color);
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a:hover {
+  opacity: 0.6;
 }
