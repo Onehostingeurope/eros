@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eros Giuliani Cannes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/landing.css">
+</head>
+<body>
+  <!-- 3D Hair Background -->
+  <canvas id="three-bg"></canvas>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-box">EROS GIULIANI</div>
+    <nav class="nav-links">
+      <a href="/shop.html">Collections</a>
+      <a href="#services">Services</a>
+      <a href="#stylists">Stylists</a>
+      <a href="#atelier">Atelier</a>
+    </nav>
+    <a href="#" class="btn-book">Book Appointment</a>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="title">Eros Giuliani</h1>
+        <p class="desc">Un œil d'esthète qui affecte le culte raffiné de la beauté formelle. Issu des équipes de Gianni Versace, il impose l'harmonie à votre personnalité et à votre humeur.</p>
+        <a href="#" class="link-more">En savoir plus &rarr;</a>
+      </div>
+      <div class="hero-image">
+        <img src="/eros_real.jpg" alt="Eros Giuliani">
+      </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section class="bio-section">
+      <div class="bio-images">
+        <div class="bio-logo">
+          <h2>EG</h2>
+          <h3>EROS GIULIANI</h3>
+          <p>CANNES</p>
+        </div>
+        <img src="/bio_real.jpg" alt="Eros Giuliani">
+      </div>
+      <div class="bio-content">
+        <h2 class="title-md">Qui suis-je ?</h2>
+        <p class="desc-sm">Avant à son arc plus d'une trentaine de techniques de pose d'extensions et autant de savoir en matière de coupe, coiffure et coloration. Faiseur de tendance Eros Giuliani participe à l'élaboration et distribution des dernières technologies en matière de cellules souches et de soins biologiques.</p>
+        
+        <h4 class="subtitle">PRESTIGE & EXCELLENCE</h4>
+        <p class="desc-sm">Eros Giuliani a également reçu de nombreux prix et fait régulièrement l'objet d'articles de presse, de magazines et d'émissions télévisées. Participant aux plus prestigieux évènements de la côte d'azur.</p>
+        <p class="desc-sm">Il s'adapte aux contraintes de temps et aux cahiers des charges les plus pointus. Nos équipes interviennent également en organisation d'évènementiel. La dimension internationale de ses réseaux impose aux équipes à formuler les projets dans plusieurs langues.</p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+      <div class="services-header">
+        <div class="services-title">
+          <h2 class="title-md">Eros Giuliani</h2>
+          <h3 class="subtitle-italic">Coiffeur Cannes</h3>
+        </div>
+        <h2 class="title-md">L'Art de la Coiffure</h2>
+        <a href="#" class="link-more">Tous les services &rarr;</a>
+      </div>
+      <div class="services-grid">
+        <div class="service-col">
+          <h4>Visagiste</h4>
+          <p>Une coupe sur-mesure étudiée selon la morphologie de votre visage pour sublimer vos traits naturels.</p>
+        </div>
+        <div class="service-col">
+          <h4>Coloration</h4>
+          <p>Des techniques de balayage et de coloration exclusives, respectueuses de la fibre capillaire.</p>
+        </div>
+        <div class="service-col">
+          <h4>Balayage Signature</h4>
+          <p>Un éclaircissement subtil et lumineux qui reproduit l'effet naturel du soleil sur vos cheveux.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Woman Face Turn Sequence -->
+    <section class="woman-sequence-section">
+      <div class="woman-sequence-sticky">
+        <canvas id="woman-canvas"></canvas>
+      </div>
+    </section>
+
+    <!-- Sanctuary Section -->
+    <section class="sanctuary-section" id="atelier">
+      <h2 class="title-md center">Un Sanctuaire de Beauté</h2>
+      <div class="sanctuary-image">
+        <img src="/salon_sanctuary.png" alt="Sanctuaire de Beauté">
+      </div>
+    </section>
+
+    <!-- Product Carousel Section -->
+    <section class="carousel-section">
+      <div class="carousel-header">
+        <h2 class="title-md">Nos Collections</h2>
+        <a href="/shop.html" class="link-more">Voir la boutique &rarr;</a>
+      </div>
+      <div class="carousel-container">
+        <a href="/shop.html" class="carousel-item">
+          <div class="carousel-image-wrapper">
+            <img src="/img1.png" alt="Keratin Infusion">
+          </div>
+          <div class="carousel-info">
+            <h4>Keratin & Collagene</h4>
+            <p>€45.00</p>
+          </div>
+        </a>
+        <a href="/shop.html" class="carousel-item">
+          <div class="carousel-image-wrapper">
+            <img src="/img2.png" alt="Botanical Mask">
+          </div>
+          <div class="carousel-info">
+            <h4>Botanical Mask</h4>
+            <p>€55.00</p>
+          </div>
+        </a>
+        <a href="/shop.html" class="carousel-item">
+          <div class="carousel-image-wrapper">
+            <img src="/img3.png" alt="Midnight Serum">
+          </div>
+          <div class="carousel-info">
+            <h4>Midnight Serum</h4>
+            <p>€65.00</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-left">
+      <h2>CANNES<br>ÉDITION</h2>
+    </div>
+    <div class="footer-center">
+      <p>90 rue d'Antibes ?</p>
+      <p>2 ROND POINT DUBOYS D'ANGERS<br>06400 Cannes</p>
+      <p>Tél : +33 4 93 38 83 90<br>eros.giuliani@live.com</p>
+      <div class="hours">
+        <p><strong>Horaire</strong></p>
+        <p>Lundi : Fermé<br>Mardi - Samedi : 10h - 19h<br>Dimanche : Fermé</p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <a href="#">Heritage</a>
+      <a href="#">Sustainability</a>
+      <a href="#">Press</a>
+      <a href="#">Careers</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 CANNES ÉDITION. PILLARS OF ELEGANCE.</p>
+    </div>
+    <script type="module" src="/landing.js"></script>
+  </footer>
+
+</body>
+</html>
