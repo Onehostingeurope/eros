@@ -474,15 +474,38 @@ a {
 
 .marquee-content {
   display: inline-flex;
+  align-items: center;
   animation: scroll-left 40s linear infinite;
 }
 
-.marquee-content span {
+.review-text {
   font-family: var(--font-serif);
   font-size: 1.1rem;
   font-style: italic;
   color: var(--text-color);
-  padding: 0 40px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.google-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #5f6368;
+  padding-right: 40px;
+}
+
+.google-rating svg {
+  margin-right: 2px;
+}
+
+.google-rating .stars {
+  color: #fbbc04;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
 }
 
 @keyframes scroll-left {
